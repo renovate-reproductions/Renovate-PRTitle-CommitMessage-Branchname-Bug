@@ -26,8 +26,8 @@ branch name = renovate/{{project_name}}-parentdir
 The actual PR has the following properties: 
 
 ```
-PR Title = “TicketID: Upgrade” 
-commit message = “TicketID: Upgrade dependency” 
+PR Title = “TicketID : Upgrade” 
+commit message = “TicketID : Upgrade dependency” 
 branch name = renovate/-parentdir
 ```
 
