@@ -17,12 +17,18 @@ and the relevant configuration parameters in `renovaterc.json` are set like:
 
 The expect PR has the following properties:
 
+```
 PR Title = “TicketID {{project_template}}: Upgrade {{Project_Name}}” 
 commit message = “TicketID {{project_template}}: Upgrade dependency `package` to `new_version`” 
 branch name = renovate/{{project_name}}-parentdir
+```
 
+The actual PR has the following properties: 
 
-The actual PR has the following properties: PR Title = “TicketID: Upgrade” 
+```
+PR Title = “TicketID: Upgrade” 
 commit message = “TicketID: Upgrade dependency” 
 branch name = renovate/-parentdir
+```
 
+An identical project named `project_template` is added to showcase the expected Renovate behaviour.
