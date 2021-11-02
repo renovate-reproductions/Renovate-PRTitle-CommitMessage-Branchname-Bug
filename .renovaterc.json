@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json.schemastore.org/renovate",
+    "additionalBranchPrefix": "{{parentDir}}-",
+    "commitMessagePrefix": "TicketID {{parentDir}}:",
+    "enabledManagers": ["pipenv"],
+    "packageRules": [
+      {
+        "groupName": "{{parentDir}}",
+        "matchPackagePatterns": [".*"]
+      }
+    ],
+    "prHeader": "Type: opt\nTicket: TicketID",
+    "rangeStrategy": "bump",
+    "includePaths": [
+      "{{project_name}}/Pipfile"
+    ]
+  }
