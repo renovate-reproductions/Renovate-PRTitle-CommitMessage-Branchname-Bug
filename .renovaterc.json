@@ -12,6 +12,6 @@
     "prHeader": "Type: opt\nTicket: TicketID",
     "rangeStrategy": "bump",
     "includePaths": [
-      "{{project_name}}/Pipfile"
+      "{{project_template}}/Pipfile"
     ]
   }
