@@ -1,11 +1,11 @@
 {
     "$schema": "https://json.schemastore.org/renovate",
-    "additionalBranchPrefix": "{{{{raw}}}}{{parentDir}}{{{{/raw}}}}-",
-    "commitMessagePrefix": "TicketID {{{{raw}}}}{{parentDir}}{{{{/raw}}}}:",
+    "additionalBranchPrefix": "\{{parentDir}}-",
+    "commitMessagePrefix": "TicketID \{{parentDir}}:",
     "enabledManagers": ["pipenv"],
     "packageRules": [
       {
-        "groupName": "{{{{raw}}}}{{parentDir}}{{{{/raw}}}}",
+        "groupName": "\{{parentDir}}",
         "matchPackagePatterns": [".*"]
       }
     ],
