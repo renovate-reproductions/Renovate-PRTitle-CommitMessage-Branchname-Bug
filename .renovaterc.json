@@ -1,7 +1,7 @@
 {
     "$schema": "https://json.schemastore.org/renovate",
     "additionalBranchPrefix": "{{parentDir}}-",
-    "commitMessagePrefix": "TicketID {{parentDir}}:",
+    "commitMessagePrefix": "TicketID {{{parentDir}}}:",
     "enabledManagers": ["pipenv"],
     "packageRules": [
       {
