@@ -16,7 +16,7 @@ and the relevant configuration parameters in `renovaterc.json` are set like:
     {
     "groupName": "\\{{parentDir}}",
     "matchPackagePatterns": [".*"]
-    }
+    }]
 ```
 
 The expect PR has the following properties:
